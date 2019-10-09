@@ -1,7 +1,11 @@
 def speak_to_grandma(string)
 a = []
 a=string.chars
-
+i = 0 
+  while i < a.length do
+  if 
+  i += 1 
+  end
   
 end
   
