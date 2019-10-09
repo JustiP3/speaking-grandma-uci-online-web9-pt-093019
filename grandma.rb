@@ -21,7 +21,7 @@ else
 end 
   
   if gma_can_hear == false
-    puts "HUH?! SPEAK UP, SONNY!"
+    responce = "HUH?! SPEAK UP, SONNY!"
   elsif string == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   else
