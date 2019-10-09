@@ -1,3 +1,13 @@
+def all_upper(string)
+a = string
+b = string.upcase
+  if a == b 
+  return TRUE
+  else
+  return FALSE
+  end
+end
+
 def speak_to_grandma(string)
 a = []
 a=string.chars
@@ -22,16 +32,7 @@ i = 0
 
 end
 
-def all_upper(string)
-a = string
-b = string.upcase
-if a == b 
-  return TRUE
-else
-  return FALSE
-end
 
-end
 
   
   # Write a speak_to_grandma method.
