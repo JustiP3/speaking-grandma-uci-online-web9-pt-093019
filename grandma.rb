@@ -23,11 +23,14 @@ end
   if gma_can_hear == false
     responce = "HUH?! SPEAK UP, SONNY!"
   elsif string == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+     responce = "I LOVE YOU TOO PUMPKIN!"
   else
-    puts "NO, NOT SINCE 1938!"
+     responce = "NO, NOT SINCE 1938!"
   end 
-    
+
+puts responce
+return responce
+
 
 end
 
