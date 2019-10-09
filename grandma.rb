@@ -13,9 +13,12 @@ i = 0
   
   if gma_can_hear == false
     puts "HUH?! SPEAK UP, SONNY!"
+  elsif string == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+  else
+    puts "NO, NOT SINCE 1938!"
   end 
     
-
 
 end
 
