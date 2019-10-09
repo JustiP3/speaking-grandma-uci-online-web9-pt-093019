@@ -1,12 +1,12 @@
-def all_upper(string)
-a = string
-b = string.upcase
-  if a == b 
-  return TRUE
-  else
-  return FALSE
-  end
-end
+#def all_upper(string)
+#a = string
+#b = string.upcase
+#  if a == b 
+#  return TRUE
+#  else
+#  return FALSE
+#  end
+#end
 
 def speak_to_grandma(string)
 a = []
@@ -14,12 +14,11 @@ a=string.chars
 gma_can_hear = TRUE
 i = 0 
 
-  while i < a.length do
-    if all_upper(a[i]) == FALSE 
-    gma_can_hear = false 
-    i += 1
-    end 
-  end
+if string.upcase == string 
+  gma_can_hear = true 
+else
+  gma_can_hear = false 
+end 
   
   if gma_can_hear == false
     puts "HUH?! SPEAK UP, SONNY!"
