@@ -1,4 +1,6 @@
 def speak_to_grandma(string)
+a = []
+a=string.chars
 
   
 end
